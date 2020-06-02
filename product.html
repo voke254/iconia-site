@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iconia</title>
+        <!--Fontawesome-->
+        <script src="https://kit.fontawesome.com/9137690c02.js" crossorigin="anonymous"></script>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="css/materialize.min.css">
+         <!--Import iconia.css-->
+         <link rel="stylesheet" href="css/iconia.css">
+    </head>
+    <body>
+        <div class="navbar-fixed ">
+            <nav class="indigo darken-4">
+              <div class="container">
+                <div class="nav-wrapper">
+                  <strong><a href="#" class="brand-logo">ICONIA</a></strong>
+                  <a href="#" data-target="mobile-nav"
+                  class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                  </a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <strong>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="index.html">About us</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="product.html">Products</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="#contact">Contact</a></li>
+                        </strong>
+                      
+                      </ul>
+                    <!--<ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#" class="btn btn indigo darken-1 btn-large waves-effect waves-light">
+                          <i class=" material-icons left">person</i>Login</a></li>
+                      </ul>--> 
+                </div>
+              </div>
+            </nav>
+        </div>
+      <ul id="mobile-nav" class="sidenav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul> 
+
+    
+    
+       <section class="section">
+        <footer class="page-footer grey darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h3>Iconia</h3>
+                <p>
+                  We develop a multi-vendor strategy utilising a wide range of tools,
+                  and weaving a simplified mesh around Business Intelligence, Advanced Analytics, 
+                  and Big Data that enables our customers to trap & access all available insights with no limitations.
+                </p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <span class="white-text">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#privacyPolicyModal">Privacy policy</a></li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright grey darken-4">
+            <div class="container">
+            © 2020 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+
+      <!--JavaScript at end of body for optimized loading-->
+    <script src="js/materialize.min.js"></script>
+    <script>
+      //Sidenav
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+      
+       
+    </script>
+    </body>
+</html>
